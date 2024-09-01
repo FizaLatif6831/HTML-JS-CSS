@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="style.css" />
+
+<title>Register</title>
+
+<style>
+    body {
+        background-color: #f2f2f2;
+        font-family: Times New Roman, serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+    }
+
+    .submit-button {
+        background-color: #FF9900;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        display: block;
+        width: 100%;
+        margin-top: 20px;
+        border-radius: 5px;
+        text-align: center;
+    }
+
+    h1 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+</style>
+
+<body>
+    <form>
+        <h1>Register</h1>
+        <form>
+            <label for="fname"><b>First name</label>
+            &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+            <label for="lname"><b>Last Name </label><br>
+            <input type="text" name="fname" placeholder="e.g. Fiza">
+            &nbsp &nbsp &nbsp &nbsp
+            <input type="text" name="lname" placeholder="e.g. Latif"><br><br>
+
+            <label for="email"><b>Email Address</label><br>
+            <input type="email" id="email" name="email" size="50" placeholder="e.g.l226831@lhr.nu.edu.pk"><br><br>
+            <label for="phone"><b>Phone Number</label>
+            &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+            <label for="website"><b>Website </label><br>
+            <input type="text" name="phone" placeholder="+92 000 0000000">
+            &nbsp &nbsp &nbsp &nbsp
+            <input type="text" name="website" placeholder="e.g. https://google.com"><br><br>
+
+            <label for="password"><b>Password</label>
+            &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+            <label for="Re-type"><b>Re-type Password </label><br>
+            <input type="text" name="password" placeholder="Your Password">
+            &nbsp &nbsp &nbsp &nbsp
+            <input type="text" name="website" placeholder="e.g. https://google.com"><br><br>
+
+            <p><input id="terms" type="checkbox" onclick="agree()" name="terms" value="on" /> <span style="font-weight:normal"> Creating an account means you're okay with our <a href="/terms and conditions/">Terms &<br> Conditions</a> and <a href="privacy/">our Privacy Policy</a>.</p>
+
+            &nbsp &nbsp
+            <input type="submit" class="submit-button" value="Register">
+
+
+</body>
+
+</html>
