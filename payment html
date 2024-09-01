@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="style.css" />
+<style>
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+    }
+</style>
+<title>Payment</title>
+
+<body>
+    <style>
+        h1 {
+            text-align: center;
+        }
+    </style>
+
+    <form>
+        <div style="border: dotted 1px grey" id="mydiv">
+            <h1 style="color:YellowGreen;">Payment Form</h1>
+        </div><br>
+
+        <h3 style="color:YellowGreen;">Account</h3>
+
+        <input type="text" name="fname" placeholder="Full Name">
+        &nbsp &nbsp &nbsp
+        <input type="text" name="nname" placeholder="Nick Name">
+
+        <br><br>
+        <input type="email" id="email" name="email" size="50" placeholder="Email Adress">
+
+        <h3 style="color:YellowGreen;">Date of Birth &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Gender</h3>
+
+        <input type="date" id="dob" name="dob">
+
+        &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+        <input type="text" id="gender" name="gender" placeholder="Male/Female">
+
+        <h3 style="color:YellowGreen;">Payment Details</h3>
+
+        <input type="radio" name="option" value="option1">Credit Card<br>
+        <input type="radio" name="option" value="option2">Paypal<br><br><br>
+
+        <input type="text" id="card" name="card" placeholder="Card Number"><br><br>
+
+        <input type="text" id="cvc" name="cvc" placeholder="Card CVC" size="10">
+
+        &nbsp &nbsp &nbsp &nbsp
+        <input type="date" id="date-input" name="date-input">
+        <br><br><br>
+        <input type="submit" value="Pay Now" style="background-color: yellowgreen; color: white; border: none; padding: 10px 20px; font-size: 16px; cursor: pointer;">
+
+
+    </form>
+</body>
+
+</html>
